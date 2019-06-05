@@ -12,15 +12,12 @@ source:
 build:
   number: 0
   skip: True  # [win and vc<14]
-  features:
-    - vc14  # [win]
   rpaths:
     - lib/
     - lib/rbdl/
 
 requirements:
   build:
-    - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - cmake
     - make  # [unix]
@@ -32,14 +29,14 @@ requirements:
 test:
   commands:
     - test $PREFIX/lib/librbdl$SHLIB_EXT  # [unix]
-    - if not exist %PREFIX%\\Library\\lib\\rbdl*.lib exit 1  # [win]
+    - if not exist %PREFIX%\\Lib\\rbdl*.lib exit 1  # [win]
 
 about:
   home: https://bitbucket.org/rbdl/rbdl
   license: zlib
   license_file: LICENSE
   license_family: OTHER
-  summary: RBDL is a highly efficient C++ library that contains some essential rigid body dynamics algorithms
+  summary: RBDL is a highly efficient C++ library that contains some essential rigid body dynamics algorithms.
 
 extra:
   recipe-maintainers:
