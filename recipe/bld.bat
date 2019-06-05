@@ -3,7 +3,8 @@ cd build
 
 cmake ../^
     -G"%CMAKE_GENERATOR%"^
-    -DCMAKE_INSTALL_PREFIX="%PREFIX%"
+    -DCMAKE_INSTALL_PREFIX="%PREFIX%"^
+    -DRBDL_BUILD_STATIC=OFF
 
 cmake --build ./^
     --config Release^
