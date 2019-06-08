@@ -10,11 +10,13 @@ source:
   sha256: a73bfe37b7a86d954fdb57cc88cdc8e08d35a6799745dad395da491daaad504f
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win and vc<14]
   rpaths:
     - lib/
-    - lib/rbdl/
+    - lib/{{ name }}/
+    - lib64/
+    - lib64/{{ name }}/
 
 requirements:
   build:
