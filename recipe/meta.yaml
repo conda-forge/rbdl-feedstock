@@ -10,7 +10,7 @@ source:
   sha256: a73bfe37b7a86d954fdb57cc88cdc8e08d35a6799745dad395da491daaad504f
 
 build:
-  number: 2
+  number: 3
   skip: True  # [win and vc<14]
   rpaths:
     - lib/
