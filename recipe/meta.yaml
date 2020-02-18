@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://bitbucket.org/{{ name }}/{{ name }}/get/v{{ version }}.tar.gz
-  sha256: a73bfe37b7a86d954fdb57cc88cdc8e08d35a6799745dad395da491daaad504f
+  url: https://github.com/pyomeca/rbdl-casadi/archive/{{ version }}.tar.gz
+  sha256: 2185c9922afc0069d90c81ef72e729ad6e10c645a17d38d539e53c399ef600a0
 
 build:
-  number: 3
+  number: 4
   skip: True  # [win and vc<14]
   rpaths:
     - lib/
