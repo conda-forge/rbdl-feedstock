@@ -10,7 +10,7 @@ source:
   sha256: 7cff1e05318a5bcbdd920d634af0b4f8e50220aae713fa8323af01c1f6ef65fb
 
 build:
-  number: 1
+  number: 2
   skip: True  # [win and vc<14]
   rpaths:
     - lib/
@@ -20,6 +20,7 @@ requirements:
   build:
     - {{ compiler('cxx') }}
     - cmake
+    - ninja  # [win]
     - make  # [unix]
   host:
     - eigen
@@ -33,7 +34,7 @@ test:
 
 about:
   home: https://bitbucket.org/rbdl/rbdl
-  license: zlib
+  license: Zlib
   license_file: LICENSE
   license_family: OTHER
   summary: RBDL is a highly efficient C++ library that contains some essential rigid body dynamics algorithms.
