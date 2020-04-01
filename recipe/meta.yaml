@@ -1,5 +1,5 @@
 {% set name = "rbdl" %}
-{% set version = "2.6.0.2" %}
+{% set version = "2.6.0.4" %}
 
 package:
   name: {{ name|lower }}
