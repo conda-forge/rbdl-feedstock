@@ -3,11 +3,11 @@ About rbdl
 
 Home: https://bitbucket.org/rbdl/rbdl
 
-Package license: zlib
+Package license: Zlib
 
 Feedstock license: BSD 3-Clause
 
-Summary: RBDL is a highly efficient C++ library that contains some essential rigid body dynamics algorithms
+Summary: RBDL is a highly efficient C++ library that contains some essential rigid body dynamics algorithms.
 
 
 

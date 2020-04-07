@@ -3,7 +3,9 @@ mkdir build
 cd build
 
 cmake ../ \
+      -GNinja \
       -DCMAKE_INSTALL_PREFIX=$PREFIX \
+      -DCMAKE_BUILD_TYPE=Release \
+      -DCMAKE_INSTALL_LIBDIR=lib
 
-make -j $CPU_COUNT
-make install
+ninja install
