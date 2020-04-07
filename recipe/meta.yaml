@@ -20,8 +20,7 @@ requirements:
   build:
     - {{ compiler('cxx') }}
     - cmake
-    - ninja  # [win]
-    - make  # [unix]
+    - ninja
   host:
     - eigen
   run:
