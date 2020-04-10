@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pyomeca/rbdl-casadi/archive/{{ version }}.tar.gz
-  sha256: 6457453791fe2d0b6420ffc40687dd0db5ebd1fc11634eaebecbee02742f0a20
+  sha256: 3785499facfd6e84ea7440d54c5f8ea0d19647735b612ac03af3f7ec9e2374fe
 
 build:
   number: 0
