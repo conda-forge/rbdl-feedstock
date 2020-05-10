@@ -1,5 +1,5 @@
 {% set name = "rbdl" %}
-{% set version = "2.6.0.6" %}
+{% set version = "2.6.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,17 +7,17 @@ package:
 
 source:
   url: https://github.com/pyomeca/rbdl-casadi/archive/{{ version }}.tar.gz
-  sha256: c6d43435a7b04528b4d2fe3d2e52f8bc839b00b4fd4f60d10825d7de3bcb156a
+  sha256: bd1173bfaef2da13fe1d8716950a09eefdbe22ce9f9e9cef25bbc3fa5e9fefed
 
 build:
-  number: 2
+  number: 0
   skip: true  # [win and vc<14]
   rpaths:
     - lib/
     - lib/{{ name }}/
   run_exports:
     - {{ pin_subpackage('rbdl', max_pin='x.x') }}
-    
+
 requirements:
   build:
     - {{ compiler('cxx') }}
