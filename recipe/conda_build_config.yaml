@@ -1,2 +1,11 @@
-variants = {'backend', ['eigen', 'casadi']}
-api.build('./meta.yaml', variants=variants)
+backend:
+  - 'casadi'  # [linux or osx]
+  - 'eigen'
+  
+backend_name_in_build:
+  - 'Casadi'
+  - 'Eigen3'
+  
+zip_keys:
+  - backend
+  - backend_name_in_build

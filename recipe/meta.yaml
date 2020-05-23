@@ -24,9 +24,9 @@ requirements:
     - cmake
     - ninja
   host:
-    - eigen
+    - {{ backend }}
   run:
-    - eigen
+    - {{ backend }}
 
 test:
   commands:
