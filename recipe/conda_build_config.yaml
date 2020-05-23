@@ -3,7 +3,7 @@ backend:
   - 'eigen'
   
 backend_name_in_build:
-  - 'Casadi'
+  - 'Casadi'  # [linux or osx]
   - 'Eigen3'
   
 zip_keys:
