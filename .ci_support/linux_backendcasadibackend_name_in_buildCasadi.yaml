@@ -1,3 +1,7 @@
+backend:
+- casadi
+backend_name_in_build:
+- Casadi
 channel_sources:
 - conda-forge,defaults
 channel_targets:
@@ -8,3 +12,6 @@ cxx_compiler_version:
 - '7'
 docker_image:
 - condaforge/linux-anvil-comp7
+zip_keys:
+- - backend
+  - backend_name_in_build

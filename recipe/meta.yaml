@@ -1,5 +1,6 @@
 {% set name = "rbdl" %}
 {% set version = "2.6.0.7" %}
+{% set build_num = 1 %}
 
 package:
   name: {{ name|lower }}
@@ -10,13 +11,14 @@ source:
   sha256: bd1173bfaef2da13fe1d8716950a09eefdbe22ce9f9e9cef25bbc3fa5e9fefed
 
 build:
-  number: 0
+  number: {{ build_num }}
   skip: true  # [win and vc<14]
   rpaths:
     - lib/
     - lib/{{ name }}/
   run_exports:
     - {{ pin_subpackage('rbdl', max_pin='x.x') }}
+  string: {{ backend }}_h{{ PKG_HASH }}_{{ build_num }}
 
 requirements:
   build:
@@ -24,9 +26,9 @@ requirements:
     - cmake
     - ninja
   host:
-    - eigen
+    - {{ backend|default("eigen") }}
   run:
-    - eigen
+    - {{ backend|default("eigen") }}
 
 test:
   commands:

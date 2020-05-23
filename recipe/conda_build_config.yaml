@@ -1,0 +1,12 @@
+backend:
+  - 'casadi'  # [linux or osx]
+  - 'eigen'
+  
+backend_name_in_build:
+  - 'Casadi'  # [linux or osx]
+  - 'Eigen3'
+  
+zip_keys:
+-
+  - backend
+  - backend_name_in_build

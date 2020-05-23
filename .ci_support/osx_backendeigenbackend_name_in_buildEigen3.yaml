@@ -1,3 +1,5 @@
+MACOSX_DEPLOYMENT_TARGET:
+- '10.9'
 backend:
 - eigen
 backend_name_in_build:
@@ -7,9 +9,13 @@ channel_sources:
 channel_targets:
 - conda-forge main
 cxx_compiler:
-- vs2017
-vc:
-- '14'
+- clangxx
+cxx_compiler_version:
+- '9'
+macos_machine:
+- x86_64-apple-darwin13.4.0
+macos_min_version:
+- '10.9'
 zip_keys:
 - - backend
   - backend_name_in_build
