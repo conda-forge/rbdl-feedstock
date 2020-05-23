@@ -1,2 +1,2 @@
 variants = {'eigen', 'casadi'}
-api.build(./meta.yaml, variants=variants)
+api.build('./meta.yaml', variants=variants)
