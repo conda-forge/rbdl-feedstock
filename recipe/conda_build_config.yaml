@@ -1,2 +1,2 @@
-variants = {'eigen', 'casadi'}
+variants = {'backend', ['eigen', 'casadi']}
 api.build('./meta.yaml', variants=variants)
