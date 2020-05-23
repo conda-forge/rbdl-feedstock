@@ -25,9 +25,9 @@ requirements:
     - cmake
     - ninja
   host:
-    - {{ backend|default("casadi") }}
+    - {{ backend|default("eigen") }}
   run:
-    - {{ backend|default("casadi") }}
+    - {{ backend|default("eigen") }}
 
 test:
   commands:
