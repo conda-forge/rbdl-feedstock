@@ -29,17 +29,31 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux</td>
+              <td>linux_backendcasadibackend_name_in_buildCasadi</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=linux&configuration=linux_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=linux&configuration=linux_backendcasadibackend_name_in_buildCasadi" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx</td>
+              <td>linux_backendeigenbackend_name_in_buildEigen3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=osx&configuration=osx_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=linux&configuration=linux_backendeigenbackend_name_in_buildEigen3" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_backendcasadibackend_name_in_buildCasadi</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=osx&configuration=osx_backendcasadibackend_name_in_buildCasadi" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_backendeigenbackend_name_in_buildEigen3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=osx&configuration=osx_backendeigenbackend_name_in_buildEigen3" alt="variant">
                 </a>
               </td>
             </tr><tr>

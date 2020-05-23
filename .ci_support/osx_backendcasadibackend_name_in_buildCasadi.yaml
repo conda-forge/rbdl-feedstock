@@ -1,5 +1,9 @@
 MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
+backend:
+- casadi
+backend_name_in_build:
+- Casadi
 channel_sources:
 - conda-forge,defaults
 channel_targets:
@@ -12,3 +16,6 @@ macos_machine:
 - x86_64-apple-darwin13.4.0
 macos_min_version:
 - '10.9'
+zip_keys:
+- - backend
+  - backend_name_in_build
