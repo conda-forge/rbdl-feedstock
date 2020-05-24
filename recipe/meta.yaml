@@ -19,7 +19,9 @@ build:
   run_exports:
     - {{ pin_subpackage('rbdl', max_pin='x.x') }}
   string: {{ backend }}_h{{ PKG_HASH }}_{{ build_num }}
-
+  track_features:
+    - casadi  # [backend == "casadi"]
+    
 requirements:
   build:
     - {{ compiler('cxx') }}
