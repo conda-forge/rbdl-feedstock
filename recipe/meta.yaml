@@ -18,6 +18,7 @@ build:
     - lib/{{ name }}/
   run_exports:
     - {{ pin_subpackage('rbdl', max_pin='x.x') }}
+    - rbdl * {{ backend }}_*
   string: {{ backend }}_h{{ PKG_HASH }}_{{ build_num }}
   track_features:
     - casadi  # [backend == "casadi"]
