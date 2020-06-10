@@ -1,5 +1,5 @@
 {% set name = "rbdl" %}
-{% set version = "2.6.0.7" %}
+{% set version = "2.6.0.8" %}
 {% set build_num = 2 %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/pyomeca/rbdl-casadi/archive/{{ version }}.tar.gz
-  sha256: bd1173bfaef2da13fe1d8716950a09eefdbe22ce9f9e9cef25bbc3fa5e9fefed
+  sha256: abc7a38e00ebaec6ccbe9acb761f43c2a11bf88ade03066706286dce58cde4cb
 
 build:
   number: {{ build_num }}
@@ -22,7 +22,6 @@ build:
   string: {{ backend }}_h{{ PKG_HASH }}_{{ build_num }}
   track_features:
     - casadi  # [backend == "casadi"]
-    
 requirements:
   build:
     - {{ compiler('cxx') }}
