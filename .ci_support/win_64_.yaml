@@ -1,21 +1,17 @@
-MACOSX_DEPLOYMENT_TARGET:
-- '10.9'
 backend:
-- casadi
+- eigen
 backend_name_in_build:
-- Casadi
+- Eigen3
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
 cxx_compiler:
-- clangxx
-cxx_compiler_version:
-- '9'
-macos_machine:
-- x86_64-apple-darwin13.4.0
-macos_min_version:
-- '10.9'
+- vs2017
+target_platform:
+- win-64
+vc:
+- '14'
 zip_keys:
 - - backend
   - backend_name_in_build
