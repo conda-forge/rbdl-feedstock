@@ -5,11 +5,9 @@ Home: https://bitbucket.org/rbdl/rbdl
 
 Package license: Zlib
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rbdl-feedstock/blob/master/LICENSE.txt)
 
 Summary: RBDL is a highly efficient C++ library that contains some essential rigid body dynamics algorithms.
-
-
 
 Current build status
 ====================
@@ -29,50 +27,44 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_backendcasadibackend_name_in_buildCasadi</td>
+              <td>linux_64_backendcasadibackend_name_in_buildCasadi</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=linux&configuration=linux_backendcasadibackend_name_in_buildCasadi" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=linux&configuration=linux_64_backendcasadibackend_name_in_buildCasadi" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_backendeigenbackend_name_in_buildEigen3</td>
+              <td>linux_64_backendeigenbackend_name_in_buildEigen3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=linux&configuration=linux_backendeigenbackend_name_in_buildEigen3" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=linux&configuration=linux_64_backendeigenbackend_name_in_buildEigen3" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_backendcasadibackend_name_in_buildCasadi</td>
+              <td>osx_64_backendcasadibackend_name_in_buildCasadi</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=osx&configuration=osx_backendcasadibackend_name_in_buildCasadi" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=osx&configuration=osx_64_backendcasadibackend_name_in_buildCasadi" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_backendeigenbackend_name_in_buildEigen3</td>
+              <td>osx_64_backendeigenbackend_name_in_buildEigen3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=osx&configuration=osx_backendeigenbackend_name_in_buildEigen3" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=osx&configuration=osx_64_backendeigenbackend_name_in_buildEigen3" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win</td>
+              <td>win_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=win&configuration=win_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=win&configuration=win_64_" alt="variant">
                 </a>
               </td>
             </tr>
           </tbody>
         </table>
       </details>
-    </td>
-  </tr>
-  <tr>
-    <td>Linux_ppc64le</td>
-    <td>
-      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
     </td>
   </tr>
 </table>
