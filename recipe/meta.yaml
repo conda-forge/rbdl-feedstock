@@ -24,11 +24,12 @@ build:
 requirements:
   build:
     - {{ compiler('cxx') }}
+    - pkgconfig
     - cmake
     - ninja
-    - pkgconfig
   host:
     - {{ backend|default("eigen") }}
+    - pkgconfig
   run:
     - {{ backend|default("eigen") }}
 
