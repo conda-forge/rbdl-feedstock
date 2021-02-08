@@ -1,6 +1,6 @@
 {% set name = "rbdl" %}
 {% set version = "2.6.0.10" %}
-{% set build_num = 0 %}
+{% set build_num = 1 %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,6 @@ source:
 
 build:
   number: {{ build_num }}
-  skip: true  # [win and vc<14]
   rpaths:
     - lib/
     - lib/{{ name }}/
