@@ -1,9 +1,9 @@
 #!/bin/bash
 mkdir build
 cd build
-echo coucou
+
 echo $backend
-echo $backend_name_in_build
+echo $rbdl_use_casadi_math
 cmake ../ \
       -GNinja \
       -DCMAKE_INSTALL_PREFIX=$PREFIX \
