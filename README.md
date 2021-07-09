@@ -27,45 +27,45 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_backendcasadibackend_name_in_buildCasadi</td>
+              <td>linux_64_backendcasadirbdl_use_casadi_mathON</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=linux&configuration=linux_64_backendcasadibackend_name_in_buildCasadi" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=linux&configuration=linux_64_backendcasadirbdl_use_casadi_mathON" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_backendeigenbackend_name_in_buildEigen3</td>
+              <td>linux_64_backendeigenrbdl_use_casadi_mathOFF</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=linux&configuration=linux_64_backendeigenbackend_name_in_buildEigen3" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=linux&configuration=linux_64_backendeigenrbdl_use_casadi_mathOFF" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_backendcasadibackend_name_in_buildCasadi</td>
+              <td>osx_64_backendcasadirbdl_use_casadi_mathON</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=osx&configuration=osx_64_backendcasadibackend_name_in_buildCasadi" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=osx&configuration=osx_64_backendcasadirbdl_use_casadi_mathON" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_backendeigenbackend_name_in_buildEigen3</td>
+              <td>osx_64_backendeigenrbdl_use_casadi_mathOFF</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=osx&configuration=osx_64_backendeigenbackend_name_in_buildEigen3" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=osx&configuration=osx_64_backendeigenrbdl_use_casadi_mathOFF" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_backendcasadibackend_name_in_buildCasadi</td>
+              <td>win_64_backendcasadirbdl_use_casadi_mathON</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=win&configuration=win_64_backendcasadibackend_name_in_buildCasadi" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=win&configuration=win_64_backendcasadirbdl_use_casadi_mathON" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_backendeigenbackend_name_in_buildEigen3</td>
+              <td>win_64_backendeigenrbdl_use_casadi_mathOFF</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6867&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=win&configuration=win_64_backendeigenbackend_name_in_buildEigen3" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rbdl-feedstock?branchName=master&jobName=win&configuration=win_64_backendeigenrbdl_use_casadi_mathOFF" alt="variant">
                 </a>
               </td>
             </tr>

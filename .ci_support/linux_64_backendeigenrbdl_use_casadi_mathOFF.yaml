@@ -1,7 +1,5 @@
 backend:
 - eigen
-backend_name_in_build:
-- Eigen3
 cdt_name:
 - cos6
 channel_sources:
@@ -14,10 +12,12 @@ cxx_compiler_version:
 - '9'
 docker_image:
 - quay.io/condaforge/linux-anvil-comp7
+rbdl_use_casadi_math:
+- 'OFF'
 target_platform:
 - linux-64
 zip_keys:
 - - backend
-  - backend_name_in_build
+  - rbdl_use_casadi_math
 - - cdt_name
   - docker_image

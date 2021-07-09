@@ -8,11 +8,11 @@ jobs:
     vmImage: vs2017-win2016
   strategy:
     matrix:
-      win_64_backendcasadibackend_name_in_buildCasadi:
-        CONFIG: win_64_backendcasadibackend_name_in_buildCasadi
+      win_64_backendcasadirbdl_use_casadi_mathON:
+        CONFIG: win_64_backendcasadirbdl_use_casadi_mathON
         UPLOAD_PACKAGES: 'True'
-      win_64_backendeigenbackend_name_in_buildEigen3:
-        CONFIG: win_64_backendeigenbackend_name_in_buildEigen3
+      win_64_backendeigenrbdl_use_casadi_mathOFF:
+        CONFIG: win_64_backendeigenrbdl_use_casadi_mathOFF
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables:

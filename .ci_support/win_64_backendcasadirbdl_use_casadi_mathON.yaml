@@ -1,15 +1,15 @@
 backend:
-- eigen
-backend_name_in_build:
-- Eigen3
+- casadi
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
 cxx_compiler:
 - vs2017
+rbdl_use_casadi_math:
+- 'ON'
 target_platform:
 - win-64
 zip_keys:
 - - backend
-  - backend_name_in_build
+  - rbdl_use_casadi_math

@@ -1,9 +1,7 @@
 MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
 backend:
-- casadi
-backend_name_in_build:
-- Casadi
+- eigen
 channel_sources:
 - conda-forge,defaults
 channel_targets:
@@ -14,8 +12,10 @@ cxx_compiler_version:
 - '11'
 macos_machine:
 - x86_64-apple-darwin13.4.0
+rbdl_use_casadi_math:
+- 'OFF'
 target_platform:
 - osx-64
 zip_keys:
 - - backend
-  - backend_name_in_build
+  - rbdl_use_casadi_math
