@@ -1,12 +1,12 @@
 backend:
   - 'casadi'
   - 'eigen'
-  
-rbdl_use_casadi_math:
-  - ON
-  - OFF
-  
+
+backend_name_in_build:
+  - 'Casadi'
+  - 'Eigen3'
+
 zip_keys:
 -
   - backend
-  - rbdl_use_casadi_math
+  - backend_name_in_build
