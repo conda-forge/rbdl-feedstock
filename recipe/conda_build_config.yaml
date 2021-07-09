@@ -3,8 +3,8 @@ backend:
   - 'eigen'
   
 rbdl_use_casadi_math:
-  - 'ON'
-  - 'OFF'
+  - ON
+  - OFF
   
 zip_keys:
 -
