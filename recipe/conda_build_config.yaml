@@ -3,8 +3,8 @@ backend:
   - 'eigen'
 
 backend_name_in_build:
-  - 'Casadi'
-  - 'Eigen3'
+  - 'ON'
+  - 'OFF'
 
 zip_keys:
 -
