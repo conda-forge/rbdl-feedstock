@@ -1,7 +1,5 @@
 MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
-backend:
-- eigen
 channel_sources:
 - conda-forge,defaults
 channel_targets:
@@ -12,10 +10,5 @@ cxx_compiler_version:
 - '11'
 macos_machine:
 - x86_64-apple-darwin13.4.0
-rbdl_use_casadi_math:
-- 'OFF'
 target_platform:
 - osx-64
-zip_keys:
-- - backend
-  - rbdl_use_casadi_math

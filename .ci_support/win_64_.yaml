@@ -1,15 +1,8 @@
-backend:
-- eigen
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
 cxx_compiler:
 - vs2017
-rbdl_use_casadi_math:
-- 'OFF'
 target_platform:
 - win-64
-zip_keys:
-- - backend
-  - rbdl_use_casadi_math

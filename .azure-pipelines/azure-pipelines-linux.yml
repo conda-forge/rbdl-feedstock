@@ -8,12 +8,8 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      linux_64_backendcasadirbdl_use_casadi_mathON:
-        CONFIG: linux_64_backendcasadirbdl_use_casadi_mathON
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
-      linux_64_backendeigenrbdl_use_casadi_mathOFF:
-        CONFIG: linux_64_backendeigenrbdl_use_casadi_mathOFF
+      linux_64_:
+        CONFIG: linux_64_
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
   timeoutInMinutes: 360
