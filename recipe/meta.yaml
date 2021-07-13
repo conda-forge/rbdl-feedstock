@@ -19,10 +19,6 @@ build:
     - {{ pin_subpackage('rbdl', max_pin='x.x') }}
     
 requirements:
-  c_compiler:
-    - vs2019  # [win]
-  cxx_compiler:
-    - vs2019  # [win]
   build:
     - {{ compiler('cxx') }}
     - pkgconfig
