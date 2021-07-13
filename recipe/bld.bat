@@ -2,7 +2,7 @@ mkdir build
 cd build
 
 cmake ../ ^
-    -GNinja ^
+    -G "Visual Studio 16 2019" -A x64 ^ 
     -DCMAKE_INSTALL_PREFIX="%PREFIX%" ^
     -DRBDL_BUILD_STATIC=ON ^
     -DCMAKE_BUILD_TYPE=Release ^
