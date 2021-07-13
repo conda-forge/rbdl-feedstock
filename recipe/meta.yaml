@@ -10,11 +10,6 @@ source:
   url: https://github.com/pariterre/rbdl-orb/archive/{{ version }}.tar.gz
   sha256: d22cb7f41c0934ba428cdf969712846456d07b12fb18fd10070a77476743347b
 
-c_compiler:
-  - vs2019  # [win]
-cxx_compiler:
-  - vs2019  # [win]
-
 build:
   number: {{ build_num }}
   rpaths:
@@ -25,6 +20,10 @@ build:
     
 requirements:
   build:
+    - c_compiler:
+      - vs2019  # [win]
+    - cxx_compiler:
+      - vs2019  # [win]
     - {{ compiler('cxx') }}
     - pkgconfig
     - cmake
