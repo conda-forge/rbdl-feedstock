@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/pariterre/rbdl-orb/archive/v{{ version }}.tar.gz
-  sha256: d22cb7f41c0934ba428cdf969712846456d07b12fb18fd10070a77476743347b
+  sha256: 9ce0424fc48da904602753bc11035fb72fdb507e8b67e5d31003e596f653b3b0
 
 build:
   number: {{ build_num }}
