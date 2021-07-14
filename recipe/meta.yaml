@@ -1,5 +1,5 @@
 {% set name = "rbdl" %}
-{% set version = "3.0.0" %}
+{% set version = "3.1.0" %}
 {% set build_num = 0 %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/pyomeca/rbdl-casadi/archive/{{ version }}.tar.gz
-  sha256: 7f1dda6d21fe6228ec6bb2ef6882e1ef62ec72995417fa49569747b1ebcc840c
+  url: https://github.com/pariterre/rbdl-orb/archive/v{{ version }}.tar.gz
+  sha256: d2ff884f4873926fe959a888c91bf54e1b82237bde242e55a6ec85af4a1a6ee8
 
 build:
   number: {{ build_num }}
@@ -17,21 +17,22 @@ build:
     - lib/{{ name }}/
   run_exports:
     - {{ pin_subpackage('rbdl', max_pin='x.x') }}
-    - rbdl * {{ backend }}_*
-  string: {{ backend }}_h{{ PKG_HASH }}_{{ build_num }}
-  track_features:
-    - casadi  # [backend == "casadi"]
+    
 requirements:
   build:
     - {{ compiler('cxx') }}
     - pkgconfig
     - cmake
     - ninja
+    - eigen
+    - casadi
   host:
-    - {{ backend|default("eigen") }}
+    - eigen
+    - casadi
     - pkgconfig
   run:
-    - {{ backend|default("eigen") }}
+    - eigen
+    - casadi
 
 test:
   commands:

@@ -1,7 +1,3 @@
-backend:
-- eigen
-backend_name_in_build:
-- Eigen3
 cdt_name:
 - cos6
 channel_sources:
@@ -17,7 +13,5 @@ docker_image:
 target_platform:
 - linux-64
 zip_keys:
-- - backend
-  - backend_name_in_build
 - - cdt_name
   - docker_image
