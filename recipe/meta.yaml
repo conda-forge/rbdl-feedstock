@@ -1,5 +1,5 @@
 {% set name = "rbdl" %}
-{% set version = "3.1.1" %}
+{% set version = "3.1.2" %}
 {% set build_num = 0 %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/pariterre/rbdl-orb/archive/v{{ version }}.tar.gz
-  sha256: dc66c5c2c1be97f9419946f18cf19581671707af90ab8d3271778ed4f87b4c89
+  sha256: 897d4391c713d249b7d133343e6374c4d02d39b4879063809d745cd8d7c983f8
 
 build:
   number: {{ build_num }}
