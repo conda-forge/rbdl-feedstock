@@ -2,7 +2,7 @@ mkdir build
 cd build
 
 cmake ../ ^
-    -GNinja
+    -GNinja ^
     -DCMAKE_INSTALL_PREFIX="%PREFIX%" ^
     -DRBDL_BUILD_STATIC=ON ^
     -DCMAKE_BUILD_TYPE=Release ^
