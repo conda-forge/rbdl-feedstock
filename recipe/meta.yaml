@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/rbdl/rbdl/archive/v{{ version }}.tar.gz
-  sha256: 0e8680e45b52ec7d171802d40fadd3d38208ff296a609318cabb61f6eb3ef7e1
+  sha256: d85e3e4238cf00db4ef95b35747e60294a6efc1e58269208e5d403de8e5ab207
 
 build:
   number: {{ build_num }}
