@@ -1,5 +1,5 @@
 {% set name = "rbdl" %}
-{% set version = "3.2.1" %}
+{% set version = "3.3.0" %}
 {% set build_num = 4 %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/rbdl/rbdl/archive/v{{ version }}.tar.gz
-  sha256: d85e3e4238cf00db4ef95b35747e60294a6efc1e58269208e5d403de8e5ab207
+  sha256: ab190e2c43976f57d1a0d39630660e4ebb5bc708e3b76f480cf7f99c3c74cd4f
 
 build:
   number: {{ build_num }}
