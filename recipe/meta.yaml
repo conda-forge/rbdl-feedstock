@@ -29,6 +29,7 @@ requirements:
     - casadi
   host:
     - eigen
+    - eigen-abi-devel
     - casadi
     - pkgconfig
   run:
