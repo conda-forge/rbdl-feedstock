@@ -7,6 +7,6 @@ channel_targets:
 cxx_compiler:
 - vs2022
 eigen_abi_devel:
-- 3.4.0
+- 5.0.1
 target_platform:
 - win-64
